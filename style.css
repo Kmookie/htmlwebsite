@@ -1,0 +1,63 @@
+h1{ 
+    color: pink;
+    background-color: magenta;
+    border: 4px dashed blue;
+    border-color: seagreen;
+    border-width: 15;
+    font-size: 50px;
+    text-align: center;
+    font-weight: !important;
+    
+}
+h2{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    font-family: cursive, fantasy, "Times New Roman", serif;
+}
+table{
+    margin: 0px auto;
+    vertical-align: middle;
+    width: 700px;
+    height: 225px;
+    
+    
+}
+
+body{
+    
+    background-image: url("http://www.planwallpaper.com/static/images/abstract-background-design.jpg");
+    background-size: cover;
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.noshow{
+    display: none;
+}
+
+a:visited{
+    color:red;
+}
+a:link{
+    color: purple;
+}
+tr:first-of-type{
+    
+    background-color: magenta;
+}
+tr:nth-child(2){
+    background-color: salmon;
+}
+tr:nth-child(3){
+    background-color: lightpink;
+}
+tr:nth-child(4){
+    background-color: lime;
+}
+tr:hover {
+    background-color: lightgreen;
+    
+}
